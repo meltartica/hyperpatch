@@ -4,4 +4,4 @@ version=v2026.11.12
 versionCode=20261112
 author=Meltarta, Sevtinge, ATK队友z, 后宫学长, ⼼劫, baka
 description=适用于运行 HyperOS 3.0.x 的 REDMI K90 Pro Max 的补丁合集。完整补丁列表请参阅 README。
-updateJson=https://github.com/meltartica/HyperPatch/raw/main/update.json
+updateJson=https://github.com/meltartica/hyperpatch/raw/main/update.json
