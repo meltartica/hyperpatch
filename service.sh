@@ -6,13 +6,6 @@ until [ "$(getprop sys.boot_completed)" = "1" ]; do
     sleep 10
 done
 
-# 开机 60 秒后强制停止小米互联通信服务，以避免 NFC 超时导致贴贴分享不可用
-kill_mi_connect_service() {
-    sleep 60
-    am force-stop "com.xiaomi.mi_connect_service" >/dev/null 2>&1
-}
-kill_mi_connect_service &
-
 # 开机后持续将 sys.oem_unlock_allowed 置空，共尝试 60 秒
 #
 # 刻意用「置空」而不是 resetprop --delete：

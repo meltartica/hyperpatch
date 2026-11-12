@@ -1,5 +1,9 @@
 # Changelog
 
+## v2026.11.12
+
+- 移除：开机自动杀死小米互联通信服务补丁（`com.xiaomi.mi_connect_service`），同步移除 README 与安装提示中的对应条目
+
 ## v2026.9.24
 
 - 相机：开启新版徕卡UI（`ro.theme_customize`、`ro.boot.product.theme_customize`、`ro.leica.camera`、`ro.product.essential.support`）
